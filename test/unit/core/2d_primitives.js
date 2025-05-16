@@ -30,7 +30,7 @@ suite('2D Primitives', function() {
   suite('p5.prototype.point', function() {
     test('should be a function', function() {
       assert.ok(mockP5Prototype.point);
-      assert.typeOf(mockP5Prototype.point, 'string');
+      assert.typeOf(mockP5Prototype.point, 'function');
     });
   });
 

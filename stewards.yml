@@ -4,7 +4,8 @@ calebfoss:
 
 davepagurek:
   - Core
-  - WebGL
+  - Graphics:
+      - WebGL
 
 dhowe:
   - Typography
@@ -18,18 +19,21 @@ ogbabydiesal:
 limzykenneth:
   - Maintainers
   - DevOps
+  - Contributor Docs
   - Color
   - i18n:
       - zh
 
 perminder-17:
-  - WebGL
+  - Graphics:
+      - WebGL
   - Documentation
   - Maintainers
 
 lukeplowden:
-  - WebGL
-  - p5.strands
+  - Graphics:
+      - WebGL
+      - p5.strands
 
 ksen0:
   - Maintainers

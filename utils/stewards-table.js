@@ -6,6 +6,7 @@ const parsed = yaml.load(yamlData);
 
 const areaMap = {};
 const maintainers = new Set();
+const supportedi18n = new Set(["hi", "ko", "zh", "es"]);
 
 for (const [user, roles] of Object.entries(parsed)) {
   roles.forEach(role => {
@@ -18,7 +19,8 @@ for (const [user, roles] of Object.entries(parsed)) {
     } else {
       for (const [main, subs] of Object.entries(role)) {
         subs.forEach(sub => {
-          const key = main === "i18n" ? "i18n" : `${main} (${sub})`;
+          if (main === "i18n" && !allowedSubs.has(sub)) return;
+          const key = `${main} (${sub})`;
           areaMap[key] = areaMap[key] || new Set();
           areaMap[key].add(`@${user}`);
         });

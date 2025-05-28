@@ -19,7 +19,7 @@ for (const [user, roles] of Object.entries(parsed)) {
     } else {
       for (const [main, subs] of Object.entries(role)) {
         subs.forEach(sub => {
-          if (main === "i18n" && !allowedSubs.has(sub)) return;
+          if (main === "i18n" && !supportedi18n.has(sub)) return;
           const key = `${main} (${sub})`;
           areaMap[key] = areaMap[key] || new Set();
           areaMap[key].add(`@${user}`);

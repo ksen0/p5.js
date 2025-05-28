@@ -33,3 +33,6 @@ lukeplowden:
 
 ksen0:
   - Maintainers
+  - i18n:
+      - uk
+      - ru

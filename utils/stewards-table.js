@@ -6,7 +6,7 @@ const parsed = yaml.load(yamlData);
 
 const areaMap = {};
 const maintainers = new Set();
-const supportedi18n = new Set(["hi", "ko", "zh", "es"]);
+const supportedi18n = new Set(['hi', 'ko', 'zh', 'es']);
 
 for (const [user, roles] of Object.entries(parsed)) {
   roles.forEach(role => {

@@ -24,10 +24,17 @@ jobs:
       - name: Run table generator
         run: node utils/stewards-table.js
         
+      - name: Show git status
+        run: git status
+        
+      - name: Show diff for README.md
+        run: git diff README.md
+        
       - name: Reset all changes except README.md
         run: |
+          git restore --staged .
           git add README.md
-          git restore --source=HEAD .
+          git checkout -- .
         
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5

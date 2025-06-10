@@ -93,6 +93,7 @@ Lead/Mentor Alumni
 |------|-------------|
 | Maintainers | [@davepagurek](https://github.com/davepagurek), [@ksen0](https://github.com/ksen0), [@limzykenneth](https://github.com/limzykenneth), [@perminder-17](https://github.com/perminder-17), [@qianqianye](https://github.com/qianqianye) |
 | Accessibility | [@calebfoss](https://github.com/calebfoss) |
+| Accessibility (p5.js-website) | [@coseeian](https://github.com/coseeian) |
 | Color | [@limzykenneth](https://github.com/limzykenneth) |
 | Core | [@davepagurek](https://github.com/davepagurek) |
 | DevOps | [@Vaivaswat2244](https://github.com/Vaivaswat2244), [@error-four-o-four](https://github.com/error-four-o-four), [@limzykenneth](https://github.com/limzykenneth), [@lirenjie95](https://github.com/lirenjie95) |
@@ -106,6 +107,7 @@ Lead/Mentor Alumni
 | p5.js-website | [@clairep94](https://github.com/clairep94), [@ksen0](https://github.com/ksen0) |
 | p5.sound.js | [@ogbabydiesal](https://github.com/ogbabydiesal) |
 | Shapes | [@GregStanton](https://github.com/GregStanton) |
+| TEST2 | [@ksen0](https://github.com/ksen0) |
 | Typography | [@dhowe](https://github.com/dhowe) |
 | WebGL | [@RandomGamingDev](https://github.com/RandomGamingDev) |
 <!-- STEWARDS-LIST:END -->

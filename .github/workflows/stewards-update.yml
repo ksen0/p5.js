@@ -37,4 +37,3 @@ jobs:
           title: 'chore: update README table from stewards.yml'
           body: 'This PR updates the README.md table to reflect changes in stewards.yml.'
           add: README.md
-          token: ${{ secrets.ACCESS_TOKEN }}

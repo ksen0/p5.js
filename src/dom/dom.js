@@ -19,6 +19,7 @@
 import p5 from '../core/main';
 
 /**
+ * Test for #948
  * Searches the page for the first element that matches the given
  * <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics#different_types_of_selectors" target="_blank">CSS selector string</a>.
  *
